@@ -1,0 +1,45 @@
+Go to Middle Card
+
+Identifier: Go-to-Middle-Test
+
+Description: This test verifies that when a card is drawn with value 11, it is displayed as
+
+a "Go to Middle" card. The Go to Middle cards resembles a single card of color grey with
+
+white text saying "Go to Middle".
+
+Preconditions: World of Sweets has been launched and player info entered
+
+Execution steps: Click draw card button until a "Go to Middle" card is drawn.
+
+Postconditions: The player that drew the card is sent to space 25, no matter their position on the board.
+
+Token Movement:
+
+Identifier: TokenMove01
+
+Description: This test verfies that when a color card is drawn that the player moves 
+
+to the next correct color space according to the card.
+
+Preconditions: World of Sweets has been launched and player info entered 
+
+Execution steps: Click the draw card button until a single or double color card is drawn.
+
+Postconditions: The player that drew the card has moved to the next color space corresponding
+
+to their card.
+
+Identifier: TokenMove02
+
+Description: This test verfies that tokens all start on the start space together 
+
+and can occupy any other space together on the board
+
+Preconditions: World of Sweets has been launched, player info entered
+
+Execution steps: Begin drawing cards until two player occupy the same space
+
+Postconditions: The tokens are observed occupying the start space and some other 
+
+space together

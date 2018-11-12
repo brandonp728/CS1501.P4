@@ -1,0 +1,16 @@
+Saving Data
+Identifier: SaveTest
+Decsription: This test confirms a file was created and cntains data pertinent to the 
+current game being played.
+Preconditions: World of Sweets has bene launched and player info entered
+Execution steps: click the "Save Game" button, close the game, and open the folder that the game is run from and see if a file containing the player names and current date exists.
+If so, open the file in notepad and check that that playerinfo is accurate. 
+Postconditions: The game will have saved the data from the last saved session.
+
+Swap Card
+Identifier: SwapTest
+Description: This test confirms that the swap player card works as advertised
+Preconditions: World of Sweets has been launched and player info entered
+Execution Steps: Click the draw card button until a swap card button is drawn and 
+the symbols of the players begin to change
+Post Conditions: the positions of the players should have shuffled in some way
